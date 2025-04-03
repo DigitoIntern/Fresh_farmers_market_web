@@ -13,9 +13,13 @@
 <boby>
     <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "fresh_farmers_market_db";
+// $username = "root";
+// $password = "";
+// $dbname = "fresh_farmers_market_db";
+
+$username = "fowyrqkh_ffm";
+$password = "FFM@2025";
+$dbname = "fowyrqkh_ffm";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
